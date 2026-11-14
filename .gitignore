@@ -1,0 +1,27 @@
+# Arduino IDE and embedded build output
+build/
+out/
+.pio/
+*.hex
+*.elf
+*.bin
+*.map
+*.o
+*.d
+
+# Per-device configuration and secrets
+central-device-firmware/device_config.h
+camera-firmware/device_config.h
+*.local.h
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
